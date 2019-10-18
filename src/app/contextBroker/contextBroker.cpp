@@ -134,7 +134,7 @@ char            dbHost[256];
 char            rplSet[64];
 char            dbName[64];
 char            user[64];
-char            pwd[64];
+char            pwd[128];
 char            authMech[64];
 char            authDb[64];
 bool            dbSSL;
