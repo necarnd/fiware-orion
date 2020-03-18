@@ -237,7 +237,7 @@ char            dbHost[64];
 char            rplSet[64];
 char            dbName[64];
 char            user[64];
-char            pwd[64];
+char            pwd[128];
 char            pidPath[256];
 bool            harakiri;
 bool            useOnlyIPv4;
